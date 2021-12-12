@@ -15,6 +15,7 @@ const io = new Server(httpServer, {
 
 io.on("connection", (socket) => {
   // ...
+  socket.emit("message", "Hello from server!");
   console.log("you have connected");
 });
 
