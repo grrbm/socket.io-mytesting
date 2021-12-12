@@ -1,11 +1,11 @@
 # start backend
 
-cd backend
+cd backend  
 npm start
 
 # start frontend
 
-cd frontend
+cd frontend  
 npm start
 
 # check console logs in chrome
