@@ -6,3 +6,9 @@ socket.on("connect_error", function (error) {
 socket.on("message", function (m) {
   console.log("recv server message", m);
 });
+
+function App() {
+  return <div>This is the app</div>;
+}
+
+export default App;
